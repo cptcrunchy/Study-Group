@@ -45,3 +45,24 @@ function csvToArrMap(csv){
     return csvArr
 }
 
+//Filtering out a specified value from an array
+function filterArray(arr){
+    let newArray = [];
+    for(let i = 0; i < arr.length ; i++){
+        let num = arr[i];
+        if(num !== 9) newArray.push(num);
+    }
+    return newArray
+}
+
+//Same as above with a different technique
+function filterArray2(arr){
+    return arr.filter(function(num){return num != 9})
+}
+
+//Or
+function filterArray3(arr){
+    return arr.filter((num)=> num !== 9)
+}
+
+10 edabit challenges 3 medium
