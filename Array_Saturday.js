@@ -65,29 +65,29 @@ function filterArray3(arr){
     return arr.filter((num)=> num !== 9)
 }
 
-10 edabit challenges 3 medium
+// 10 edabit challenges 3 medium
 
 const person = {
     name: Michael,
     age: 26,
-    zodiac: Leo
+    zodiac: Leo,
     hobby: "crochet"
 }
 //Deconstructing an object in the arguments
 function displayPerson({name, age, hobby}){
-    return '${name} is ${age} years old and loves ${hobby}.'
+    return `${name} is ${age} years old and loves ${hobby}.`
 }
 
 
 function displayPerson2({name, age, hobby}){
-    return '<div><p>${name} is ${age} years old and loves ${hobby}.</p></div>'
+    return `<div><p>${name} is ${age} years old and loves ${hobby}.</p></div>`
 }
 
 //...rest is "the rest"; it collects
 function displayPerson3({name, ...rest}){
     //Below is a spread
     [...name]
-    return '<div><p>${name} is ${rest.age} years old and loves ${rest.hobby}.</p></div>'
+    return `<div><p>${name} is ${rest.age} years old and loves ${rest.hobby}.</p></div>`
 }
 
 function getFirstInitial({name}){
