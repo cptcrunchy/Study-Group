@@ -65,7 +65,7 @@ function filterArray3(arr){
     return arr.filter((num)=> num !== 9)
 }
 
-10 edabit challenges 3 medium
+// 10 edabit challenges 3 medium
 
 const person = {
     name: Michael,
