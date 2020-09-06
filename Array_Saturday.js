@@ -68,7 +68,7 @@ function filterArray3(arr){
 // 10 edabit challenges 3 medium
 
 const person = {
-    name: Michael,
+    name: Michal,
     age: 26,
     zodiac: Leo,
     hobby: "crochet"
